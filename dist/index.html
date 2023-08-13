@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<style is:global>
+	:root {
+		--block-size: 48px;
+		--nav-height: var(--2-block);
+		--main-height: calc(100vh - (var(--block-size) * (2 + 3)));
+	}
+</style>
+
+
+	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="generator" content="Astro v1.0.7">
+		<title>Yon</title>
+		<link rel="icon" href="/favicon.ico">
+		<link rel="stylesheet" href="/css/minecraft.css">
+	
+	<body class="scrollbar">
+		
+        <header class="[--nav-height:3] h-[calc(var(--block-size)_*_var(--nav-height))] md:[--nav-height:2] w-full bg-block-black">
+        <div class="flex flex-col md:flex-row items-center justify-end h-full w-full p-5 pt-0 md:pb-0 bg-cover bg-gradient-to-t from-[rgba(0,0,0,0.75)] to-[rgba(0,0,0,0.25)]">
+            <a href="/" class="h-auto w-6-block md:w-9-block mx-auto md:ml-0"><img src="/imgs/Heretoir.webp" width="150" height="auto" alt="logo" class=""></a>
+
+            <nav class="flex items-center justify-end w-full md:w-min gap-3 text-2xl text-white">
+                
+                <a href="/" class="hover:underline">Home</a>
+                <a href="/about" class="hover:underline">About</a>
+                <a href="https://github.com/yonzilch" class="button py-1 px-2 text-lg" target="_blank">Github</a>
+            </nav>
+        </div>
+    
+</header>
+        <main class="min-h-[var(--main-height)] w-full bg-block-stone">
+			<div class="min-h-[var(--main-height)] h-full w-full bg-dark-75">
+				<link rel="stylesheet" href="/assets/index.35c12d18.css" /><div class="flex flex-col justify-center w-full sm:w-[90%] md:w-[80%] lg:w-[70%] mx-auto gap-5 py-5 px-2 markdown">
+    <h3 class=" underline text-2xl sm:text-4xl text-white">Yon Zilch</h3>
+    <p class="indent-5 text-white">
+        Hello,world! 
+    </p>
+    <p class="indent-5 text-white">
+    </p>
+    <h3 class="text-center  underline text-4xl text-white">Quota</h3>
+    <div class="flex items-center justify-center">
+        <ul>
+            <li>From the yon, into zilch.</li>
+            <li>Life, a vanished dream.</li>
+            <li>来自彼岸，归于虚无。</li>
+            <li>浮华人生，黄粱一梦。</li>
+        </ul>
+    </div>
+    <a href="https://blog.yon.im" target="_blank" class="self-center py-2 px-5 my-5 button text-shadow-lg text-2xl">Start</a>
+</div>
+			</div>
+		</main>
+		<footer class="[--footer-height:3] h-[calc(var(--block-size)*var(--footer-height))] xs:[--footer-height:3] sm:[--footer-height:4] md:[--footer-height:3] w-full bg-block-stone">
+    <div class="flex flex-col sm:flex-row items-center justify-between h-full p-5 bg-dark-75 text-white">
+        <header class="flex flex-col gap-3 w-full sm:w-[60%]">
+        </header>
+        <nav class="self-end flex flex-col items-end gap-1 text-link">
+            <a href="https://github.com/BryceRussell/astro-minecraft-theme" class="link">Powered by Astro-minecraft-theme</a>
+        </nav>
+    </div>
+</footer>
+		
+	</body>
